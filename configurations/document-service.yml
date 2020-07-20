@@ -2,7 +2,7 @@ server:
   port: 8082
 
 document:
-  message: Fire Store Sample is running.
+  message:  Document Service is running.
 
 feign:
   hystrix:

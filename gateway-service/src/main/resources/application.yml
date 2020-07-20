@@ -1,3 +1,0 @@
-service:
-  ping:
-    message: Gateway service is running.

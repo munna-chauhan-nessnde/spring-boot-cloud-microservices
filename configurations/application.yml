@@ -21,11 +21,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 10000
 
-# To allow unrestricted access to /actuator/refresh for testing
+# Management security disable for testing
 management:
   security:
     enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: refresh
