@@ -2,7 +2,7 @@ server:
   port: 8082
 
 document:
-  message: Document Service is running[Updated].
+  message: Document Service is running.
 
 feign:
   hystrix:

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author Munna Chauhan
  */
+@RefreshScope
 @RestController
 @RequestMapping("/document")
 public class DocumentController {

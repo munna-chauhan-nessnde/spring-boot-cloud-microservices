@@ -1,6 +1,6 @@
 application:
   shared:
-    attribute: This is shared to all micro-services.
+    attribute: This is shared to all micro services.
 
 eureka:
   instance:
@@ -21,7 +21,11 @@ hystrix:
           thread:
             timeoutInMilliseconds: 10000
 
-# Management security disable for testing
+# Management security disable and /actuator/refresh for testing
 management:
   security:
     enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: refresh
