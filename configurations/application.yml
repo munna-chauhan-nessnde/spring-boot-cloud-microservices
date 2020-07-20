@@ -1,6 +1,6 @@
 application:
   shared:
-    attribute: This is shared to all micro services.
+    attribute: This is shared to all micro-services.
 
 eureka:
   instance:
